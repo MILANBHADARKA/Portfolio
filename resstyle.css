@@ -1,0 +1,103 @@
+@media only screen and (max-width: 700px){
+
+
+    nav{
+        font-size: 0.8rem;   
+    }
+
+    .v-res{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .burger .line{
+        width: 20px;
+        height: 2px;
+    }
+
+    .main{
+        height: 85vh;
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+    }
+    .photo-back{
+        height: 270px;
+        width: 270px;
+    }
+    .myimg{
+        height: 270px;
+        width: 270px;
+    }
+    .myimg img{
+        height: 270px;
+        width: 270px;
+    }
+
+    .contain{
+        max-width: 80%;
+    }
+
+    .about{
+        flex-direction: column-reverse;
+    }
+    .about .contain{
+        text-align:justify;
+        /* text-transform:capitalize; */
+    }
+
+    .Skill-bar{
+        gap: 70px;
+    }
+    .Skill-bar h1{
+        margin: 50px 0px 10px 0px;
+    }
+
+    .tech-skills{
+        width: 50%;
+        margin: 0px;
+    }
+    .other-skills{
+        width: 50%;
+        margin: 0px;
+    }
+
+    .nav-v-res{
+        visibility:visible;
+    }
+
+    .project-bar{
+        gap: 5px;
+    }
+    .project-bar .projects{
+        flex-direction: column;
+    }
+    .project-bar .project .img{
+       height: 250px;
+       width: 250px;
+    }
+    .project-bar .project .img img{
+        height: 250px;
+        width: 250px;
+    }
+    .project-bar .project .content{
+        font-size: 12px;
+    }
+
+    .nav-v-res-ani{
+        animation: sidenavani 0.5s 1;
+    }
+
+    @keyframes sidenavani{
+        0%{
+            transform: translateY(-100%);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+
+}
