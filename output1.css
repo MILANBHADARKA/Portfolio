@@ -141,7 +141,7 @@ nav{
 }
 
 .main .contain h1{
-    font-family: Titillium Web, sans-serif;
+    font-family: Baloo Bhai2;
 }
 .photo-back{
     height: 500px;
@@ -182,7 +182,8 @@ nav{
     max-width: 40%;
 }
 .contain h3{
-    font-family: Roboto Slab;
+    /* font-family: Roboto Slab; */
+    font-family: Baloo Bhaijaan2;
     font-size: var(--h3-size);
     color: var(--contain-h3-color);
     font-weight: var(--h3-font-weight);
@@ -193,7 +194,8 @@ nav{
     font-weight: var(--h1-font-weight);
 }
 .contain p{
-    font-family: Sedan, sans-serif;
+    /* font-family: Sedan, sans-serif; */
+    font-family: Baloo Bhai2;
     font-size: 1.2rem;
     color: var(--contain-p-color);
     font-weight: 300;
@@ -221,6 +223,7 @@ nav{
 }
 .about h1{
     font-family: Passion One;
+    /* font-family: Proza Libre; */
     text-decoration: 3px underline;
     font-size: var(--h1-size); 
     color: var(--about-h1-color);
@@ -244,7 +247,7 @@ nav{
 
 .Skill-bar > h1{
     font-family: Passion One;
-
+    /* font-family: Proza Libre; */
     width: 100%;
     text-align: center;
     font-size: var(--h1-size);
@@ -445,7 +448,7 @@ nav{
 
 .project-bar h1{
     font-family: Passion One;
-
+    /* font-family: Proza Libre; */
     font-size: var(--h1-size);
     color: var(--project-bar-h1-color);
     font-weight: var(--h1-font-weight);
@@ -489,6 +492,8 @@ nav{
     transition: .6s;
 }
 .project-bar .project .content{
+    /* font-family: Baloo Bhai2; */
+    font-family: Proza Libre;
     width: 90%;
     /* height: 100%; */
     display: flex;
@@ -615,6 +620,9 @@ nav{
     gap: 4px;
     justify-content: center;
     align-items: center;
+}
+.feedback-bar input, .feedback-bar textarea{
+    font-family: Baloo Bhai2;
 }
 .contact-link-bar{
     width: 100%;
