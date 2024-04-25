@@ -1,5 +1,5 @@
 .link1{
-    animation: link1animation .5s 1;
+    animation: link1animation .3s 1;
 }
 @keyframes link1animation{
     0%{
@@ -21,7 +21,7 @@
     }
 }
 .link2{
-    animation: link2animation .7s 1;
+    animation: link2animation .5s 1;
 }
 @keyframes link2animation{
     0%{
@@ -42,7 +42,7 @@
     }
 }
 .link3{
-    animation: link3animation .9s 1;
+    animation: link3animation .7s 1;
 }
 @keyframes link3animation{
     0%{
@@ -63,7 +63,7 @@
     }
 }
 .link4{
-    animation: link4animation 1.1s 1;
+    animation: link4animation .9s 1;
 }
 @keyframes link4animation{
     0%{
@@ -84,7 +84,7 @@
     }
 }
 .link5{
-    animation: link5animation 1.3s 1;
+    animation: link5animation 1.1s 1;
 }
 @keyframes link5animation{
     0%{
@@ -105,7 +105,7 @@
     }
 }
 .link6{
-    animation: link6animation 1.5s 1;
+    animation: link6animation 1.3s 1;
 }
 @keyframes link6animation{
     0%{
@@ -126,7 +126,7 @@
     }
 }
 .link7{
-    animation: link6animation 1.7s 1;
+    animation: link6animation 1.5s 1;
 }
 @keyframes link6animation{
     0%{
@@ -159,7 +159,7 @@
 
 
 
-/* .main .first{
+.main .first{
     animation: firstani 1.5s 1;
 }
 @keyframes firstani{
@@ -224,4 +224,123 @@
         transform: translateY(0);
         opacity: 1;
     }
+}
+
+
+/* .photo1{
+    animation: photo1ani 1.5s 1;
+}
+
+@keyframes photo1ani{
+    0%{
+        transform: rotate3d(1, 1, 1, 180deg);
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        transform: rotate3d(0, 0, 0, 0deg);
+        opacity: 1;
+    }
 } */
+
+.photo2{
+    animation: photo2ani 1.5s 1;
+}
+/* Rotate like coin */
+@keyframes photo2ani{
+    0%{
+        transform: rotateX(180deg);
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        transform: rotateX(0);
+        opacity: 1;
+    }
+
+}
+
+/* .to-do-project{
+    animation: to-do-projectani 1.5s 1;
+}
+@keyframes to-do-projectani{
+    0%{
+        transform: translateX(-50vw);
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.guess-number-project{
+    animation: guess-number-projectani 1.5s 1;
+}
+@keyframes guess-number-projectani{
+    0%{
+        transform: translateX(50vw);
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+} */
+
+.touch{
+    animation: touchani 2s 1;
+}
+@keyframes touchani{
+    0%{
+        transform: scale(5);
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

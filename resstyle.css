@@ -1,5 +1,31 @@
 @media only screen and (max-width: 700px){
+    .link-for-side{
+        display: flex;
+        flex-direction: column;
+        width: 25px;
+        background-color: var(--link-for-side--back-color);
+        position: fixed;
+        border-radius: 10px 10px 10px 10px;
+        right: 0;
+        top: 35%;
+        z-index: 997;
+        animation: sidelinkani 2s 1;
+    }
 
+    .link-for-side a{
+        margin: 5px 0 5px 0;
+    }
+    .contact-bar{
+        z-index: 998;
+    }
+    @keyframes sidelinkani{
+        0%{
+            transform: scale(3);
+        }
+        100%{
+            transform: scale(1);
+        }
+    }
 
     nav{
         font-size: 0.8rem;   
@@ -100,4 +126,10 @@
         }
     }
 
+}
+
+@media only screen and (max-width: 350px){
+    .link-for-side{
+        display: none;
+    }
 }

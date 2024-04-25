@@ -8,11 +8,12 @@ html{
 }
 
 body{
-    font-family: 'Arial', sans-serif;
     background-color: var(--body-back-color);
     min-height: 100vh;
 }
-
+.link-for-side{
+    display: none;
+}
 nav{
     position:sticky;
     top: 2px;
@@ -40,6 +41,11 @@ nav{
     100%{
         transform: scale(1);
     }
+}
+
+.name{
+    color: var(--name-color);
+    font-family: 'Proza Libre',sans-serif;
 }
 
 .links{
@@ -141,11 +147,18 @@ nav{
 }
 
 .main .contain h1{
-    font-family: Baloo Bhai2;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    color: var(--name-and-span-color);
 }
+.main .contain span{
+    font-family: 'Baloo Bhai 2', sans-serif;
+    color: var(--name-and-span-color);
+}
+
+  
 .photo-back{
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     background-color: var(--photo-back-color);
     border-radius: 50%;
     display: flex;
@@ -165,14 +178,14 @@ nav{
     position: absolute;
     top: 0;
     right: 0;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
     transition: .4s;
 }
 .myimg img{
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
     object-fit: cover;
     transition: .4s;
@@ -182,8 +195,7 @@ nav{
     max-width: 40%;
 }
 .contain h3{
-    /* font-family: Roboto Slab; */
-    font-family: Baloo Bhaijaan2;
+    /* font-family: Baloo Bhaijaan2; */
     font-size: var(--h3-size);
     color: var(--contain-h3-color);
     font-weight: var(--h3-font-weight);
@@ -194,15 +206,12 @@ nav{
     font-weight: var(--h1-font-weight);
 }
 .contain p{
-    /* font-family: Sedan, sans-serif; */
-    font-family: Baloo Bhai2;
+    font-family: 'Baloo Bhai 2', sans-serif;
     font-size: 1.2rem;
     color: var(--contain-p-color);
-    font-weight: 300;
+    font-weight: 500;
     margin: 15px 0;
 }
-
-
 
 .hr{
     height: 3px;
@@ -222,8 +231,7 @@ nav{
     margin: 50px 0;
 }
 .about h1{
-    font-family: Passion One;
-    /* font-family: Proza Libre; */
+    font-family: 'Passion One',sans-serif;
     text-decoration: 3px underline;
     font-size: var(--h1-size); 
     color: var(--about-h1-color);
@@ -246,8 +254,7 @@ nav{
 }
 
 .Skill-bar > h1{
-    font-family: Passion One;
-    /* font-family: Proza Libre; */
+    font-family: 'Passion One',sans-serif;
     width: 100%;
     text-align: center;
     font-size: var(--h1-size);
@@ -276,7 +283,7 @@ nav{
     margin: auto 10px auto auto;
 }
 .tech-skills h3{
-    font-family: Sedan;
+    /* font-family: Sedan; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -362,7 +369,7 @@ nav{
     margin: auto auto auto 10px;
 }
 .other-skills h3{
-    font-family: Sedan;
+    /* font-family: Sedan; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -447,8 +454,7 @@ nav{
 
 
 .project-bar h1{
-    font-family: Passion One;
-    /* font-family: Proza Libre; */
+    font-family: 'Passion One',sans-serif;
     font-size: var(--h1-size);
     color: var(--project-bar-h1-color);
     font-weight: var(--h1-font-weight);
@@ -492,8 +498,7 @@ nav{
     transition: .6s;
 }
 .project-bar .project .content{
-    /* font-family: Baloo Bhai2; */
-    font-family: Proza Libre;
+    /* font-family: Proza Libre; */
     width: 90%;
     /* height: 100%; */
     display: flex;
@@ -538,10 +543,11 @@ nav{
 }
 .touch{
     position: absolute;
-    z-index: 999;
+    z-index: 1;
 }
 
 .contact-bar{
+    position: relative;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -552,8 +558,7 @@ nav{
     background-color: var(--contact-bar-back-color);
 }
 .contact-bar h1{
-    font-family: Passion One;
-
+    font-family: 'Passion One',sans-serif;
     font-size: var(--h1-size);
     color: var(--contact-bar-h1-color);
     font-weight: 800;
@@ -621,9 +626,9 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.feedback-bar input, .feedback-bar textarea{
+/* .feedback-bar input, .feedback-bar textarea{
     font-family: Baloo Bhai2;
-}
+} */
 .contact-link-bar{
     width: 100%;
     height: 25%;
@@ -674,3 +679,24 @@ nav{
 
 
 
+.animation{
+    animation: paragraph 1.5s 1;
+}
+@keyframes paragraph{
+    0%{
+        transform: translateY(-110vw);
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

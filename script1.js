@@ -49,6 +49,7 @@ sidenav.addEventListener('click', () => {
 
 
 
+
 //for round progress bar
 
 let round_video_editing = document.querySelector('.round-video-editing');
@@ -108,6 +109,3 @@ mode.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
     }
 });
-
-
-
